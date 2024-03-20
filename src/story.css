@@ -1,0 +1,15 @@
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Creates a circle */
+    /*background: radial-gradient(circle, #ff6b6b, #6b66ff); /* Defines the gradient */
+    border-image:linear-gradient(to right,#ff0000,#0000ff) 1;
+    border: 5px solid transparent; /* Hides the solid border */
+    }
+
+    .circle img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover; /* Ensures the image fills the circle */
+    }
