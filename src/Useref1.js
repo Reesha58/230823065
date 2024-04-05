@@ -7,10 +7,10 @@ function Useref1() {
     const inputMobileRef = useRef("");
     const inputEmailRef = useRef("");
 
-    const [Name, setName] = useState("krupali");
-    const [City, setCity] = useState("akbari");
-    const [Mobile, setMobile] = useState("9874562130");
-    const [Email, setEmail] = useState("k@g.com");
+    const [Name, setName] = useState("Reesha");
+    const [City, setCity] = useState("Rajkot");
+    const [Mobile, setMobile] = useState("987456662130");
+    const [Email, setEmail] = useState("m@g.com");
 
     function handlesubmit() {
         alert(`Name:${inputNameRef.current.value},City:${inputCityRef.current.value},Mobile no:${inputMobileRef.current.value},Email:${inputEmailRef.current.value}`)
